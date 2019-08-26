@@ -13,5 +13,9 @@ public class MockPrinter extends Printer{
     public String getTempText() {
             return printThis;
         }
+    public void setTempText(String a) {
+        this.printThis=a;
+
+    }
 }
 
